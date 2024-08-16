@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+<!-- the extends keyword ensures this file inherits from the base.html file-->
+{% block header %}
+    <h1>{% block title %}Add Book {% endblock %}</h1>
+
+{% endblock %}
+
+<!--This replaces block content in 'base.html'-->
+
+{# this is another type of comment #}
+{% block content %}
+    <form method="post">
+
+        <!-- Book Title, Book Author, Page Numbers, Book Description (add that it's optional) -->
+        <label for="book_title">Book Title</label>
+        <input name="Book Title" id="book_title" value="{{request.form['Book Title']}}" required>
+
+        <label for="book_author"> Book Author</label>
+        <input name="Book Author" id="book_author" value="{{request.form['Book Author']}}" required>
+
+        <label for="page_numbers"> Page Numbers</label>
+        <input name="Page Numbers" id="page_numbers" value="{{request.form['Page Numbers']}}" required>
+
+        <label for="book_description"> Book Description</label>
+        <textarea name="Book Description" id="book_description">{{request.form['Book Description']}}</textarea>
+
+        <input type="submit" value="Save">
+    </form>
+{% endblock %}

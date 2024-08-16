@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS user;
+DROP TABLE IF EXISTS books;
+
+CREATE TABLE user (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT UNIQUE NOT NULL,
+    password TEXT NOT NULL
+);
+
+CREATE TABLE books (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    creator_id INTEGER NOT NULL,
+    created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    book_title TEXT NOT NULL,
+    book_author TEXT NOT NULL,
+    book_description TEXT NOT NULL,
+    page_numbers INTEGER NOT NULL,
+    FOREIGN KEY (creator_id) REFERENCES user (id)
+);

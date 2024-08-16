@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}{{title}} {% endblock %}
+<h1>{% block header %}<h2>{{title}}</h2> <h3>Completion Status</h3>{% endblock %}</h1>
+
+{% block content %}
+
+{# this is for the list that holds the books, Current Page column#}
+
+
+    <form method="POST">
+        <label for="Current Page">Enter page you're on:</label>
+        <input type="number" min="0" id="Current Page" name="Current Page" size = "4"
+               value="{{ request.form['Current Page']}}" >
+         <input value="Calculate" type="submit">
+        </form>
+
+<!--{% block completion %}-->
+    <div>{{completion_rate}}</div>
+<!--{% endblock %}-->
+
+
+{% endblock %}
+
+
+

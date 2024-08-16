@@ -1,0 +1,26 @@
+/.../booktracker_app
+├── booktracker/
+│   ├── __init__.py
+│   ├── db.py
+│   ├── schema.sql
+│   ├── auth.py
+│   ├── books.py
+│   ├── templates/
+│   │   ├── base.html
+│   │   ├── authors/
+│   │   │   ├── authors.html
+│   │   ├── auth/
+│   │   │   ├── login.html
+│   │   │   └── register.html
+│   │   └── books/
+│   │       ├── create.html
+│   │       ├── index.html
+│   │       ├── completion_status.html
+│   │       └── update.html
+│   └── static/
+│       └── style.css
+└── pyproject.toml
+
+
+pip install -e .
+the above command turns my project into an installable project

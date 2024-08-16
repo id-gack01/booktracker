@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+    {% block header %} <h1>{% block title %}Edit Book - {{updated_book['book_title'].capitalize()}} {% endblock %}</h1>
+
+{% endblock %}
+
+{% block content %}
+
+<!--ONE ROUTE PER FORM IS REQUIRED OTHERWISE YOU'LL GET ISSUES-->
+
+
+<form method="post">
+    <label for="book_title"> Title: </label>
+    <input name="Book Title" id="book_title"
+           value="{{request.form['Book Title'] or updated_book['book_title']}}" required>
+
+    <label for="book_author"> Book Author: </label>
+    <input name="Book Author" id="book_author"
+           value="{{request.form['Book Author'] or updated_book['book_author']}}" required>
+
+    <label for="page_numbers">Page Numbers: </label>
+    <input name="Page Numbers" id="page_numbers"
+           value="{{request.form['Page Numbers'] or updated_book['page_numbers']}}" required>
+
+    <label for="book_description"> Book Description: </label>
+    <textarea name="Book Description" id="book_description">{{request.form['Book Description'] or updated_book['book_description']}}</textarea>
+
+    <input type="submit" value="Save">
+</form>
+
+    <form action="{{ url_for('book.delete', book_author=updated_book['book_author'], book_title=updated_book['book_title']) }}" method="post">
+        <input class="danger" type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete?');">
+    </form>
+
+{% endblock %}
+

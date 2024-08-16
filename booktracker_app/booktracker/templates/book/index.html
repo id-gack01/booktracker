@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+
+{% block header %}
+    <h1>{% block title %}Books{% endblock %}</h1>
+    {%if g.user %}
+        <a class="action" href="{{url_for('book.add_book')}}">Add Book</a>
+    {% endif %}
+        <a class="action" href="{{url_for('book.get_authors')}}">Show Authors</a>
+{% endblock %}
+
+{% block content%}
+
+{% for books in book %}
+        <article>
+            <header>
+                <div>
+                    <h2> {{books['book_title']}} </h2>
+                    <p>by <i>{{books['book_author'].title()}}</i> </p>
+                    <a class="action" href="{{url_for('book.getcompletionstatus', book_title=books['book_title'],
+            book_author=books['book_author'])}}">Completion Status</a>
+                </div>
+            </header>
+            <table>
+                <thead>
+                    <tr>
+                         <th scope="col">|Page Numbers|</th>
+<!--                         <th scope="col">Current Page|</th>-->
+<!--                         <th scope="col">Book Progress</th>-->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>| {{books['page_numbers']}} |</td>
+                        {# td for current page and td for progress come from completion_status.html and go here #}
+                        {#I might be able ot import completion_status.html as a template model variable #}
+
+
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="book_desc">{{books['book_description']}}</p>
+
+            <a class="action" href="{{url_for('book.update_book', book_title=books['book_title'],
+            book_author=books['book_author'])}}">Edit</a>
+        </article>
+
+{% endfor %}
+{% endblock %}
