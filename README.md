@@ -64,7 +64,7 @@ cd booktracker
 flask --app __init__.py run
 ```
 The idea being you run the flask --app (filewheretheflaskappiscreated).py run command in that same directory so it can pick it up.
-```app = Flask(_ _name_ _, instance_relative_config=True)```
+```app = Flask(__name__, instance_relative_config=True)```
 is the creation of the app, and that's located in ```__init__.py.```
 to run the project in debug mode, adding --debug to the end will help. If you make changes, you'll immedaitely see them.
 
