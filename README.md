@@ -43,8 +43,10 @@ cd booktracker
 Make the booktracker directory now, this is where the work will get done.  Some future commands (init-db amongst them) require that they be fired in directories containing the whole project, so that's why the first directory was made.
 Make sure you have pip installed. (https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)  (https://idroot.us/install-pip-manjaro/, https://www.redhat.com/sysadmin/install-python-pip-linux) (macOS Users can watch this - https://www.youtube.com/watch?v=5sMBhDv4sik).
 
+Now install the packages that this app uses. 
+
 ```
-pip install Flask Werkzeug blinker click itsdangerous Jinja2 MarkupSafe
+pip install Flask Werkzeug click Jinja2
 ```
 
 
