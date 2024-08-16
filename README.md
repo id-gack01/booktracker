@@ -75,5 +75,5 @@ Can make a profile with the register link, that profile will hold your books. Do
 I guess a PR would be to make it so no one but the logged in user can see only see *their* books in /authors or the comments and such of other profiles but for now, I'll just leave it.
 I also need to look into how to host this project for free online somehow. 
 
-Can check out the authors, can check out the completion status for each book, can see the number of pages and whatever comments got made. 
+Can check out the authors, can check out the completion status for each book, can see the number of pages and whatever comments got made. It's a CRUD app, does what you expect.
 
