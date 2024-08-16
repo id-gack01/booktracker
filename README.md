@@ -34,6 +34,7 @@ c:\>python -m venv c:\path\to\myenv
 (Below is if the booktracker directory doesn't make itself, I should add)
 ```
 mkdir booktracker
+cd booktracker
 ```
 Make the booktracker directory now, this is where the work will get done.  Some future commands (init-db amongst them) require that they be fired in directories containing the whole project, so that's why the first directory was made.
 Make sure you have pip installed. (https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)  (https://idroot.us/install-pip-manjaro/) (Apple Users can watch this - https://www.youtube.com/watch?v=5sMBhDv4sik).
