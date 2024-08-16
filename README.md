@@ -87,6 +87,7 @@ Here's some screenshots...
 ![booktracker shot 2 - edit book](https://github.com/user-attachments/assets/96bc415c-393d-4699-850e-2faaee84561f)
 ***
 ^This is the Edit Book Page
-^This is the completion status page
 ![booktracker shot 3- completion](https://github.com/user-attachments/assets/27804ae0-7d38-48a9-a15e-340ae121f94a)
+^This is the completion status page
+
 
