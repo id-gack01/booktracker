@@ -20,7 +20,7 @@ then (after git clone or directory made yourself)
 python -m venv /path/to/new/virtual/environment
 ```
 If unfamiliar with terminal/cmd prompt navigation, I would recommend doing copy as path and pasting that value into the /path/to thing you see. 
-Left shit + right click on windows will allow the copy as path option to show up, works automatically in my manjaro linux, 
+Left shift + right click on windows will allow the copy as path option to show up, works automatically in my manjaro linux, 
 idk about apple, apple users can think different and look it up for themselves.
 
 Below is what the docs say
