@@ -1,8 +1,7 @@
 Hello, thanks for passing by. 
 
 Here's my attempt at directing you guys on how to download and run the project. Make sure you have python installed please. 
-
-try 
+First, try 
 ```
 git clone https://github.com/id-gack01/booktracker.git
 ```
