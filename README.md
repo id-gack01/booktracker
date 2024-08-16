@@ -56,9 +56,11 @@ Allows you to interact with the sql lite3 database (sqlite3 is included in pytho
 
 then run...
 ```
+cd booktracker
 flask --app __init__.py run
 ```
-to run the project adding  to the end  --debug will help
+The idea being you run the flask --app (filewheretheflaskappiscreated).py run command in that same directory so it can pick it up.
+to run the project in debug mode, adding --debug to the end   will help
 Typing  http://127.0.0.1:5000/testapp into the browser
 should work at this point.
 
