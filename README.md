@@ -84,9 +84,9 @@ Here's some screenshots...
 ^This is the Show Authors page
 ![booktracker shot 2 - authors](https://github.com/user-attachments/assets/9ae091d5-b8c2-441d-a4ba-c6b04b195d96)
 ***
-^This is the Edit Book Page
 ![booktracker shot 2 - edit book](https://github.com/user-attachments/assets/96bc415c-393d-4699-850e-2faaee84561f)
 ***
+^This is the Edit Book Page
 ^This is the completion status page
 ![booktracker shot 3- completion](https://github.com/user-attachments/assets/27804ae0-7d38-48a9-a15e-340ae121f94a)
 
