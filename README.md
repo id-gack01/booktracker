@@ -71,6 +71,10 @@ to run the project in debug mode, adding --debug to the end will help. If you ma
 Typing  http://127.0.0.1:5000/testapp into the browser
 should work at this point. If it doesn't, one of us messed up.
 
+If that works, check out the site at...
+http://127.0.0.1:5000/
+
+Can click around on some of the links, register, add some books, edit those books, and delete em. 
 Can make a profile with the register link, that profile will hold your books. Don't forget the password because there's no recovery. 
 I guess a PR would be to make it so no one but the logged in user can see only see *their* books in /authors or the comments and such of other profiles but for now, I'll just leave it.
 I also need to look into how to host this project for free online somehow. 
