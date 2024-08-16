@@ -78,15 +78,15 @@ I also need to look into how to host this project for free online somehow.
 Can check out the authors, can check out the completion status for each book, can see the number of pages and whatever comments got made. It's a CRUD app, does what you expect.
 Here's some screenshots...
 
-This is the Main Screen
+^This is the Main Screen
 ![booktracker shot 1](https://github.com/user-attachments/assets/0cd4a8b4-1a55-4186-9d56-d1d0f869f9e0)
 ***
-This is the Show Authors page
+^This is the Show Authors page
 ![booktracker shot 2 - authors](https://github.com/user-attachments/assets/9ae091d5-b8c2-441d-a4ba-c6b04b195d96)
 ***
-This is the Edit Book Page
+^This is the Edit Book Page
 ![booktracker shot 2 - edit book](https://github.com/user-attachments/assets/96bc415c-393d-4699-850e-2faaee84561f)
 ***
-This is the completion status page
+^This is the completion status page
 ![booktracker shot 3- completion](https://github.com/user-attachments/assets/27804ae0-7d38-48a9-a15e-340ae121f94a)
 
