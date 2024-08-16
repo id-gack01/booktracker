@@ -2,7 +2,12 @@ Hello, thanks for passing by.
 
 Here's my attempt at directing you guys on how to download and run the project. Make sure you have python installed please. 
 
-try git clone https://github.com/id-gack01/booktracker.git
+try 
+```
+git clone https://github.com/id-gack01/booktracker.git
+```
+(I guess this implies that git is also installed, https://www.simplilearn.com/tutorials/git-tutorial/git-installation-on-windows, Linux has it installed iirc, 
+and for Apple, https://git-scm.com/download/mac)
 
 If that doesn't work...to make the directory
 ```
@@ -60,6 +65,8 @@ cd booktracker
 flask --app __init__.py run
 ```
 The idea being you run the flask --app (filewheretheflaskappiscreated).py run command in that same directory so it can pick it up.
+```app = Flask(__name__, instance_relative_config=True)```
+is the creation of the app, and that's located in __init__.py.
 to run the project in debug mode, adding --debug to the end will help. If you make changes, you'll immedaitely see them.
 
 Typing  http://127.0.0.1:5000/testapp into the browser
