@@ -60,12 +60,13 @@ cd booktracker
 flask --app __init__.py run
 ```
 The idea being you run the flask --app (filewheretheflaskappiscreated).py run command in that same directory so it can pick it up.
-to run the project in debug mode, adding --debug to the end   will help
+to run the project in debug mode, adding --debug to the end will help. If you make changes, you'll immedaitely see them.
+
 Typing  http://127.0.0.1:5000/testapp into the browser
-should work at this point.
+should work at this point. If it doesn't, one of us messed up.
 
 Can make a profile with the register link, that profile will hold your books. Don't forget the password because there's no recovery. 
-I guess a PR would be to make it so no one but the logged in user can see the books in /authors or the comments and such of other profiles but for now, I'll just leave it.
+I guess a PR would be to make it so no one but the logged in user can see only see *their* books in /authors or the comments and such of other profiles but for now, I'll just leave it.
 I also need to look into how to host this project for free online somehow. 
 
 Can check out the authors, can check out the completion status for each book, can see the number of pages and whatever comments got made. 
