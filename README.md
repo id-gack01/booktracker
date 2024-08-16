@@ -79,10 +79,13 @@ Can check out the authors, can check out the completion status for each book, ca
 Here's some screenshots...
 Main Screen
 ![booktracker shot 1](https://github.com/user-attachments/assets/0cd4a8b4-1a55-4186-9d56-d1d0f869f9e0)
+
 View Authors Page
 ![booktracker shot 2 - authors](https://github.com/user-attachments/assets/9ae091d5-b8c2-441d-a4ba-c6b04b195d96)
+
 Edit Book Page
 ![booktracker shot 2 - edit book](https://github.com/user-attachments/assets/96bc415c-393d-4699-850e-2faaee84561f)
+
 Completion Status Page
 ![booktracker shot 3- completion](https://github.com/user-attachments/assets/27804ae0-7d38-48a9-a15e-340ae121f94a)
 
